@@ -168,7 +168,8 @@ class Point():
 
     def event(self):
         if self.game.score == 10:
-            player_win = self.game.myFont.render("player win", 1, (255,0,0))
-            self.canvas.blit(player_win, (400,300))
+            self.game.score == 0
+            # player_win = self.game.myFont.render("player win", 1, (255,0,0))
+            # self.canvas.blit(player_win, (400,300))
 pong = Pong()
 pong.start()
